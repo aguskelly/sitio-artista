@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No te va a gustar</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a class="enlace" href="bibliografia.html" target="_blank">Bibliografia</a></li>
+                <li><a class="enlace" href="integrantes.html" target="_blanck">Integrantes</a></li>
+                <li><a class="enlace" href="http://www.notevagustar.com" target="_blank">Pagina Oficial</a></li>
+            </ul>
+        </nav>
+        <section class="imagenheader">
+            <img style="display: flex;" src="https://yt3.ggpht.com/a/AATXAJysHjNsdAWjC2YJJAcka90KUb17p8_PEPwYb3Jiow=s900-c-k-c0xffffffff-no-rj-mo" alt="imagen">
+        </section> 
+    </header>
+
+    <main>
+
+        <section class="datos">
+            <table border="1">
+                <caption> <i> <b> Datos Relevantes </i> </b></caption>
+                <thead>
+                    <tr>
+                        <th>Nombre Artistico</th>
+                        <th>Donde nacio</th>
+                        <th>Genero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>No Te Va A Gustar - NTVG</td>
+                        <td>Montevideo, Uruguay</td>
+                        <td>Rock, reggae</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="formulario">
+            <caption><i><b>Contactanos</b></i></caption><br>
+            <form action="gracias.html" target="_balck">
+                <fieldset>
+                    <legend>Informacion personal</legend> <br>
+                    <p>
+                        <label>
+                            Ingresa tu nombre completo
+                            <input type="text" name="nombrecompleto" placeholder="Nombre completo" required />
+                        </label>
+                        <label>
+                            Ingresa tu edad
+                            <input type="number" name="edad" placeholder="Edad" required />
+                        </label>
+                        <label>
+                            Ingresa tu mail
+                            <input type="mail" name="mail" placeholder="Mail" required required />
+                        </label>
+                        <label>
+                            Ingresa tu numero de telefono
+                            <input type="number" name="numero" placeholder="Numero" required />
+                        </label>
+
+                    </p> <br>
+                </fieldset> <br>
+                <fieldset>
+                    <legend><i><b> Preferencias</i></b></legend> <br>
+                    <p>
+                        <label>
+                            <b>¿Cuántas canciones escuchas por dia?</b><br>
+                        <input type="radio" name="canciones" value="Menos de 10" />Menos de 10 canciones por dia <br>
+                        <input type="radio" name="canciones" value="Mas de 10" /> Mas de 10 canciones por dia <br>
+                        <input type="radio" name="canciones" value="Mas de 20"/> Mas de 20 canciones por dia <br>
+                        <input type="radio" name="canciones" value="Mas de 30"/>Mas de 30 canciones por dia <br>
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            <b>¿Que genero preferis? </b> <br>
+                        <input type="checkbox" name="genero"/> Nacional
+                        <input type="checkbox" name="genero"/> Internacional
+                        <input type="checkbox" name="genero"/> Ambas
+                        </label>
+                    </p> <br>
+                </fieldset>
+                <p>
+                    <label>
+                        Deja tu mensaje
+                        <textarea name="mensaje"></textarea>
+                    </label>
+                </p>
+                <p><input type="reset" value="Reiniciar Formulario"></p> <br>   
+                <p><input class="enviarformulario" type="submit" value="Enviar Formulario"></p>
+            </form> 
+        </section> <br>
+
+        <section class="link">
+            <nav>
+                <li>
+                    <ul>
+                        <a class="redes" href="https://www.facebook.com/notevagustaroficial" target="_blank">Facebook</a>
+                        <a class="redes" href="https://www.instagram.com/notevagustaroficial" target="_blank">Instagram</a>
+                        <a class="redes" href="https://twitter.com/ntvgoficial" target="_blank">Twitter</a>
+                        <a class="redes" href="https://www.youtube.com/user/ntvgtv" target="_blank">Youtube</a>
+                    </ul>
+                </li>
+            </nav>
+        </section>
+
+        <section>
+            <h2>Escuchanos en:</h2> <br>
+            <iframe class="escuchanos" src="https://open.spotify.com/embed/artist/4ZDoy7AWNgQVmX7T0u0B1j" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" align="middle"></iframe>
+        </section>
+    </main>
+</body>
+
+<footer>
+    <h3>Company 2021 /// NO TE VA A GUSTAR ///</h3>
+</footer>
+</html>
